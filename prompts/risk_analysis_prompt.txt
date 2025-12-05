@@ -1,0 +1,27 @@
+You are a contract risk analysis expert. Analyze the contract below for potential risks and compliance issues.
+
+Focus on detecting:
+1. Auto-renewal clauses with insufficient notice periods (< 30 days)
+2. Unlimited or uncapped liability
+3. Broad indemnification clauses
+4. Missing limitation of liability clauses
+5. Unfavorable termination terms
+6. One-sided confidentiality obligations
+
+Return ONLY a valid JSON object:
+{{
+  "findings": [
+    {{
+      "risk_type": "string",
+      "severity": "low|medium|high|critical",
+      "description": "string",
+      "evidence": "relevant text excerpt",
+      "recommendations": "string"
+    }}
+  ]
+}}
+
+Contract text:
+{contract_text}
+
+JSON response:

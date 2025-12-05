@@ -1,0 +1,19 @@
+You are a contract analysis expert. Extract the following structured fields from the contract below.
+
+Return ONLY a valid JSON object with these fields:
+- parties: array of party names (companies/individuals)
+- effective_date: date string (e.g., "January 1, 2024")
+- term: contract duration (e.g., "12 months", "3 years")
+- governing_law: jurisdiction (e.g., "State of California")
+- payment_terms: description of payment terms
+- termination: termination conditions
+- auto_renewal: auto-renewal terms if any
+- confidentiality: confidentiality obligations
+- indemnity: indemnification clauses
+- liability_cap: object with "number" and "currency" fields
+- signatories: array of objects with "name" and "title"
+
+Contract text:
+{contract_text}
+
+Respond with JSON only:
