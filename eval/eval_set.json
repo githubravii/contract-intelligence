@@ -1,0 +1,64 @@
+{
+  "evaluation_set": [
+    {
+      "id": 1,
+      "question": "Who are the parties to this agreement?",
+      "expected_answer": "Should identify all contracting parties",
+      "document_type": "NDA"
+    },
+    {
+      "id": 2,
+      "question": "What is the effective date of the contract?",
+      "expected_answer": "Should extract the effective date",
+      "document_type": "MSA"
+    },
+    {
+      "id": 3,
+      "question": "What are the payment terms?",
+      "expected_answer": "Should describe payment schedule and terms",
+      "document_type": "MSA"
+    },
+    {
+      "id": 4,
+      "question": "What is the liability cap amount?",
+      "expected_answer": "Should identify liability limitation with currency",
+      "document_type": "MSA"
+    },
+    {
+      "id": 5,
+      "question": "What are the termination conditions?",
+      "expected_answer": "Should describe how contract can be terminated",
+      "document_type": "MSA"
+    },
+    {
+      "id": 6,
+      "question": "Is there an auto-renewal clause?",
+      "expected_answer": "Should identify auto-renewal terms and notice period",
+      "document_type": "MSA"
+    },
+    {
+      "id": 7,
+      "question": "What law governs this agreement?",
+      "expected_answer": "Should identify governing law jurisdiction",
+      "document_type": "NDA"
+    },
+    {
+      "id": 8,
+      "question": "What are the confidentiality obligations?",
+      "expected_answer": "Should describe confidentiality requirements",
+      "document_type": "NDA"
+    },
+    {
+      "id": 9,
+      "question": "What indemnification provisions exist?",
+      "expected_answer": "Should describe indemnity obligations",
+      "document_type": "MSA"
+    },
+    {
+      "id": 10,
+      "question": "Who are the signatories and their titles?",
+      "expected_answer": "Should list signatories with names and titles",
+      "document_type": "MSA"
+    }
+  ]
+}
